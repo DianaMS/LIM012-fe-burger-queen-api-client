@@ -7,6 +7,8 @@ import { AuthComponent } from './components/auth/auth.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { ProductsComponent } from './components/products/products.component';
 import { UsersComponent } from './components/users/users.component';
+import { HeaderAdminComponent } from './components/header-admin/header-admin.component';
+import { MainAdminComponent } from './components/main-admin/main-admin.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { UsersComponent } from './components/users/users.component';
     AuthComponent,
     OrdersComponent,
     ProductsComponent,
-    UsersComponent
+    UsersComponent,
+    HeaderAdminComponent,
+    MainAdminComponent
   ],
   imports: [
     BrowserModule,
