@@ -28,7 +28,7 @@
     justify-content: center;
     form{
       width: 80%;
-      height: 50%;
+      height: 55%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -94,6 +94,14 @@
           margin-right: 20px;
           background: rgba(white, 0.24);
         }
+      }
+      button{
+        width: 50%;
+        height: 30px;
+        border: none;
+        margin-bottom: 30px;
+        color: #b96c07;
+        font-weight: bold;
       }
       .message-container{
         width: 80%;
