@@ -1,0 +1,51 @@
+@import "../../../styles.scss";
+
+.cantinerOptionOrders{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  p{
+    font-family: $fontFamily;
+    font-size: $letterSize;
+    color: $colorLetter;
+  }
+
+  .imgButton{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .contentImgLogo{
+    width: 450px;
+    height: 380px;
+    margin-bottom: 2rem;
+    .imgLogo{
+      width: 450px;
+      height: 380px;
+    }
+  }
+
+  .contentButtonDesayuno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $buttomGreen;
+    border-radius: $borderRadiusButton;
+    width: 35rem;
+    height: 13rem;
+    margin-bottom: 2rem;
+  }
+
+  .contentButtonAlmuerzo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $buttomRed;
+    border-radius: $borderRadiusButton;
+    width: 35rem;
+    height: 13rem;
+  }
+}
+
