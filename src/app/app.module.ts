@@ -7,6 +7,7 @@ import { AuthComponent } from './components/auth/auth.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { ProductsComponent } from './components/products/products.component';
 import { UsersComponent } from './components/users/users.component';
+import { OptionOrdersComponent } from './components/option-orders/option-orders.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UsersComponent } from './components/users/users.component';
     AuthComponent,
     OrdersComponent,
     ProductsComponent,
-    UsersComponent
+    UsersComponent,
+    OptionOrdersComponent
   ],
   imports: [
     BrowserModule,
