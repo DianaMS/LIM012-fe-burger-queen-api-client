@@ -9,7 +9,11 @@ import { ProductsComponent } from './components/products/products.component';
 import { UsersComponent } from './components/users/users.component';
 import { OptionOrdersComponent } from './components/option-orders/option-orders.component';
 import { HeaderAdminComponent } from './components/header-admin/header-admin.component';
-import { MainAdminComponent } from './components/main-admin/main-admin.component';
+import { AdminUsersComponent } from './views/admin/admin-users/admin-users.component';
+import { AdminProductsComponent } from './views/admin/admin-products/admin-products.component';
+import { AdminComponent } from './views/admin/admin.component';
+import { AdminMainComponent } from './components/admin-main/admin-main.component';
+import { AdminOrdersComponent } from './views/admin/admin-orders/admin-orders.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +22,13 @@ import { MainAdminComponent } from './components/main-admin/main-admin.component
     OrdersComponent,
     ProductsComponent,
     UsersComponent,
-    OptionOrdersComponent
+    OptionOrdersComponent,
     HeaderAdminComponent,
-    MainAdminComponent
+    AdminUsersComponent,
+    AdminProductsComponent,
+    AdminComponent,
+    AdminMainComponent,
+    AdminOrdersComponent,
   ],
   imports: [
     BrowserModule,
