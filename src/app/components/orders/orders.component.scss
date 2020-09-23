@@ -1,0 +1,191 @@
+@import "../../../styles.scss";
+  .containerOptionOrders{
+    background: url("../../../assets/images/background.png");
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+    top: 0;
+  }
+
+  .containerButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .contentButtonDesayuno{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: $buttomGreen;
+      border-radius: $borderRadiusButton;
+      width: 8rem;
+      height: 3rem;
+      cursor: pointer;
+    }
+
+    .contentButtonAlmuerzo{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: $buttomRed;
+      border-radius: $borderRadiusButton;
+      width: 8rem;
+      height: 3rem;
+      cursor: pointer;
+    }
+
+    .imgButton{
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .contentImgLogo{
+      width: 180px;
+      height: 130px;
+      margin-bottom: 2rem;
+      .imgLogo{
+        width: 180px;
+        height: 130px;
+      }
+    }
+  }
+  .titleButton{
+    font-family: $fontFamily;
+    font-size: $letterSizeTitle;
+    color: $colorLetter;
+  }
+
+  .listProduct{
+    color: $colorLetter;
+    font-size: $letterSizeTitle;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .containerImgDetails{
+      width: 50px;
+      height: 50px;
+      .imgDetails{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .detailsOrders{
+    background: rgba(174, 136, 0, 0.71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: $borderRadiusButton;
+    padding: 0.5rem;
+    margin: 1rem;
+    .client{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      color: $colorLetter;
+      font-size: $letterSizeTitle;
+      margin-right: 2.5rem;
+      .containerName{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        background: #c4c4c49f;
+        border-radius: 0.1rem;
+        margin-left: 0.5rem;
+        border-radius: $borderRadiusButton;
+      }
+    }
+    .containerOrder{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .orders{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+        .imgQuantity{
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+
+    .containerTotal{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      .imgLine{
+        width: 400px;
+      }
+      .totalPrice{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 4rem;
+      }
+      .btnEnviar{
+        background: rgba(71, 161, 24, 0.81);
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: $borderRadiusButton;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+@media (min-width: 768px){
+  .containerOptionOrders{
+    padding: 2rem;
+    .contentButtonDesayuno{
+      width: 13rem;
+      height: 4rem;
+    }
+
+    .contentButtonAlmuerzo{
+      width: 13rem;
+      height: 4rem;
+    }
+    .contentOrders{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .listProduct{
+        width: 50%;
+        font-size: 1.5rem;
+      }
+      .detailsOrders{
+        width: 50%;
+        .imgLine{
+          width: 580px;
+        }
+        .totalPrice{
+          padding-right: 6.8rem;
+        }
+        .btnEnviar{
+          font-size: 1.5rem;
+          width: 15rem;
+          height: 3rem;
+        }
+      }
+    }
+  }
+  .titleButton{
+    font-size: $letterSize;
+  }
+}

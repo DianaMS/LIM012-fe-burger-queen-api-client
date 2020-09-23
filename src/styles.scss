@@ -1,8 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+$buttomGreen: rgba(78, 109, 58, 0.74);
+$buttomRed: rgba(107, 9, 9, 0.81);
+$letterSize: 2rem;
+$letterSizeTitle: 1rem;
+$fontFamily: Port Lligat Slab;
+$colorLetter: #F7EFEF;
+$borderRadiusButton: 1rem;
 
 *{
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
