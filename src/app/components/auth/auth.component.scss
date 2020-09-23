@@ -1,0 +1,118 @@
+.auth-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://user-images.githubusercontent.com/60928490/93283604-7a771100-f796-11ea-81ec-e98704f71320.png');
+  background-size: cover;
+  .image-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: yellow;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .form-container{
+    width: 50%;
+    height: 100%;
+    // background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+      width: 80%;
+      height: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: rgba(#D88A23, 0.5);
+      border-radius: 30px;
+      .title-login{
+        font-size: 40px;
+        font-family: 'Port Lligat Slab', serif;
+        color: white;
+        margin-bottom: 30px;
+      }
+      .email-container{
+        width: 100%;
+        height: auto;
+        // background: crimson;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-family: 'Port Lligat Slab', serif;
+        p{
+          width: 25%;
+          height: auto;
+          padding-left: 40px;
+          // background: cornflowerblue;
+        }
+        input{
+          width: 60%;
+          height: 40px;
+          border: none;
+          border-radius: 20px;
+          margin-right: 20px;
+          background: rgba(white, 0.24);
+        }
+      }
+      .password-container{
+        width: 100%;
+        height: auto;
+        // background: crimson;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-family: 'Port Lligat Slab', serif;
+        p{
+          width: 25%;
+          height: auto;
+          padding-left: 40px;
+          // background: cornflowerblue;
+        }
+        input{
+          width: 60%;
+          height: 40px;
+          border: none;
+          border-radius: 20px;
+          margin-right: 20px;
+          background: rgba(white, 0.24);
+        }
+      }
+      button{
+        width: 50%;
+        height: 30px;
+        border: none;
+        margin-bottom: 30px;
+        color: #b96c07;
+        font-weight: bold;
+      }
+      .message-container{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        font-family: 'Port Lligat Slab', serif;
+      }
+    }
+  }
+}

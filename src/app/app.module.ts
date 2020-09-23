@@ -8,6 +8,8 @@ import { OrdersComponent } from './components/orders/orders.component';
 import { ProductsComponent } from './components/products/products.component';
 import { UsersComponent } from './components/users/users.component';
 import { OptionOrdersComponent } from './components/option-orders/option-orders.component';
+import { HeaderAdminComponent } from './components/header-admin/header-admin.component';
+import { MainAdminComponent } from './components/main-admin/main-admin.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { OptionOrdersComponent } from './components/option-orders/option-orders.
     ProductsComponent,
     UsersComponent,
     OptionOrdersComponent
+    HeaderAdminComponent,
+    MainAdminComponent
   ],
   imports: [
     BrowserModule,
